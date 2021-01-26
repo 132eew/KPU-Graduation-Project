@@ -1,0 +1,3 @@
+rootProject.name='app_nav'
+include ':app', ':OpenCV345'
+project(':OpenCV345').projectDir = new File('opencv-3.4.5-android-sdk/OpenCV-android-sdk/sdk')

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+	<node pkg="ros_std" type="position_publish.py" name="position_publish" output="screen"/>
+</launch>

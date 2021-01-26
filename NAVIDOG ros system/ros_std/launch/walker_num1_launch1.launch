@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+	<include file="$(find ocams_1cgn)/launch/RTAB-Map_slam.launch" />
+	<include file="$(find slamware_ros_sdk)/launch/slamware_ros_sdk_server_and_view.launch" />
+</launch>
